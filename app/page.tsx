@@ -14,10 +14,10 @@ export default function Home() {
                 <header className="header-section">
                     <label className="name">Timur <span className="span">Zheksimbaev</span></label>
                     <ul className="menu">
-                        <li><a href="">About me</a></li>
+                        <li><a href="#">About me</a></li>
                         <li><Link href="/portfolio">Portfolio</Link></li>
                         <li><Link href="/certificates">Certificates</Link></li>
-                        <li><a href="">Contacts</a></li>
+                        <li><a href="#">Contacts</a></li>
                         <li><Link href="/comic">Get Comic</Link></li>
                     </ul>
                 </header>
