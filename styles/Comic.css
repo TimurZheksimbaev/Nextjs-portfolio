@@ -1,23 +1,23 @@
-.comic-container { 
-    display: flex;
-    flex-direction: column;
-    background-color: #fff; 
-    border: 1px solid #ddd;
-    padding: 20px; 
-    max-width: 500px; 
-    margin: auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.comic-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .comic-container h2 {
-    color: #333;
+  color: #333;
 }
 .comic-container p {
-    color: #666;
+  color: #666;
 }
 .comic-container img {
-    /* max-width: 100%; */
-    height: auto;
-    display: block;
-    margin: 20px 0;
+  /* max-width: 100%; */
+  height: auto;
+  display: block;
+  margin: 20px 0;
 }

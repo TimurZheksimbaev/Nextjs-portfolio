@@ -1,15 +1,16 @@
 interface ComicData {
-    month: number,
-    num: number,
-    link: string,
-    year: number,
-    news: string,
-    safe_title: string,
-    transcript: string,
-    alt: string,
-    img: string,
-    title: string,
-    day: number
+  month: number;
+  num: number;
+  link: string;
+  year: number;
+  news: string;
+  safe_title: string;
+  transcript: string;
+  alt: string;
+  img: string;
+  title: string;
+  day: number;
+  date: string
 }
 
-export default ComicData
+export default ComicData;

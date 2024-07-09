@@ -6,7 +6,7 @@
 .certificate-card img {
   border-radius: 10px;
   animation: slideInFromBottom 0.7s ease-out forwards;
-  animation: slideInFromTop 0.7s ease-out forwards; 
+  animation: slideInFromTop 0.7s ease-out forwards;
 }
 
 @keyframes slideInFromBottom {

@@ -1,10 +1,10 @@
-"use client";
-import Project from "./Project";
-import projects from "../../constants/projects.json";
-import "../../styles/Portfolio.css";
+'use client';
+import Project from './Project';
+import projects from '../../constants/projects.json';
+import '../../styles/Portfolio.css';
 
-import styled, { keyframes } from "styled-components";
-import {fadeInUp} from "react-animations";
+import styled, { keyframes } from 'styled-components';
+import { fadeInUp } from 'react-animations';
 
 const Portfolio = () => {
   const FadeInUp = styled.div`
@@ -14,15 +14,13 @@ const Portfolio = () => {
   return (
     <div className="portfolio-container">
       <h1 className="portfolio-title">My Projects</h1>
-        <FadeInUp>
-      <div className="portfolio">
-        
-        {projects.map((project, index) => (
-          <Project key={index} project={project} />
-        ))}
-
-      </div>
-        </FadeInUp >
+      <FadeInUp>
+        <div className="portfolio">
+          {projects.map((project, index) => (
+            <Project key={index} project={project} />
+          ))}
+        </div>
+      </FadeInUp>
     </div>
   );
 };
